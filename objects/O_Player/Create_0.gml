@@ -25,6 +25,5 @@ jump_hold_time = 0;
 jump_hold_max[0] = 5; //max amount of frames first jump can be held
 jump_hold_max[1] = 5; //max amount of frames second jump can be held
 
-
-
+global.trashTotal = 0;
 
