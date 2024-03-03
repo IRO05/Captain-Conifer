@@ -1,19 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "O_DialogueSampleA",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "O_BuildingTile",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Dialog stuff",
-    "path": "folders/Dialog stuff.yy",
+    "name": "Walls and Interactables",
+    "path": "folders/Objects/Walls and Interactables.yy",
   },
   "parentObjectId": {
-    "name": "O_DialogueParent",
-    "path": "objects/O_DialogueParent/O_DialogueParent.yy",
+    "name": "O_Wall",
+    "path": "objects/O_Wall/O_Wall.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -30,7 +28,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "S_BuildingTile",
+    "path": "sprites/S_BuildingTile/S_BuildingTile.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

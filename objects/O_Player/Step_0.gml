@@ -64,7 +64,7 @@ if (jump_hold_time > 0){
 //X Collision
 
 if (place_meeting(x + x_spd, y, O_Wall)){ //checks for a collision
-	while !place_empty(x + sign(x_spd), y, O_Wall){
+	while !place_meeting(x + sign(x_spd), y, O_Wall){
 		x += sign(x_spd);
 	}
 	

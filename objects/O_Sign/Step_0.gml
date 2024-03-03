@@ -10,7 +10,7 @@ if(place_meeting(x, y, O_Player)){
 	}
 	else {
 		
-		instance_create_depth(0,0, -9999, O_DialogueSampleA);
+		instance_create_depth(0,0, -9999, O_DialogueChild);
 	
 	}
 }

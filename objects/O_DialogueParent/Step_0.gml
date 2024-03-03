@@ -5,6 +5,7 @@ if(showing_dialogue == false) {
 	if(dialog.count() <= 0){
 	
 		instance_destroy();
+		global.signID = 0;
 		return;
 	
 	}
