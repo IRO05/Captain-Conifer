@@ -103,4 +103,26 @@ if (y_spd >= 0 && place_meeting(x,y+1,O_Wall)){
 y += y_spd;
 
 
-//
+//ANIMATIONS
+if (!is_grounded){
+
+	sprite_index = S_PlayerFall;
+	image_speed = 0;
+	if (sign(y_spd) > 0) image_index = 1; else image_index = 0;
+
+} else {
+
+	image_speed = 1;
+	if (x_spd == 0){
+	
+		sprite_index = S_Player;
+	
+	} else {
+		
+		sprite_index = S_PlayerRun;
+		
+	}
+
+}
+
+if (x_spd != 0) image_xscale = sign(x_spd);
