@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (taskComplete){
+if (taskComplete || death){
 	
 	room_goto(roomID);
 	

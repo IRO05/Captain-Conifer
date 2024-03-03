@@ -18,7 +18,7 @@ switch(global.signID){
 	case "sign2":
 		dialog.add(S_Textbox, "Trash has been scattered around main street by litter bugs and lazy bones!!!");
 		dialog.add(S_Textbox, "Captain Conifer thinks a great way to give back to your community is by helping keep the place clean...");
-		dialog.add(S_Textbox, "Help do your part and clean up main street...");
+		dialog.add(S_Textbox, "Help do your part and clean up main street by pressing E to grab trash...");
 		break;
 		
 	case "sign3":
@@ -32,6 +32,12 @@ switch(global.signID){
 		
 	case "dirty":
 		dialog.add(S_Textbox, "This place still needs my help...");
+		break;
+		
+	case "2sign1":
+		dialog.add(S_WaterPortrait, "Thanks to water pollution all these poor ducklings are covered in oil...");
+		dialog.add(S_WaterPortrait, "Find soap around the board walk and pick it up by pressing E...");
+		dialog.add(S_WaterPortrait, "Drop the soap on the ducklings by pressing E again...");
 		break;
 		
 }
