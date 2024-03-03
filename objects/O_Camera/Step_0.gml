@@ -30,3 +30,5 @@ final_cam_y += (_camY - final_cam_y) * trail_speed;
 
 //camera coords
 camera_set_view_pos(view_camera[0], final_cam_x, final_cam_y);
+
+

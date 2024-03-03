@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "S_WaterPortrait",
-  "bbox_bottom": 99,
-  "bbox_left": 0,
-  "bbox_right": 99,
-  "bbox_top": 0,
+  "bbox_bottom": 449,
+  "bbox_left": 49,
+  "bbox_right": 258,
+  "bbox_top": 11,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"43cabe42-4365-42c2-846e-147b8ba86471",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8c41139a-9b80-42ab-a94f-731a447d0da0",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 100,
+  "height": 450,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ec8a557f-d023-455a-b684-566900099e1c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b09d9c0e-2025-491d-a802-3e490e2002dc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"43cabe42-4365-42c2-846e-147b8ba86471","path":"sprites/S_WaterPortrait/S_WaterPortrait.yy",},},},"Disabled":false,"id":"13f14532-f4d6-43c2-99e5-d9ed4504d53e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8c41139a-9b80-42ab-a94f-731a447d0da0","path":"sprites/S_WaterPortrait/S_WaterPortrait.yy",},},},"Disabled":false,"id":"5cef8466-d84b-471b-b9a7-b0ada66d24ed","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -93,5 +93,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 100,
+  "width": 337,
 }

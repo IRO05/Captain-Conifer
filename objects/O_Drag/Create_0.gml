@@ -10,3 +10,5 @@ x_acc = 0;
 
 global.isTouch = 0;
 global.trashTotal += 25;
+
+grab = 0;

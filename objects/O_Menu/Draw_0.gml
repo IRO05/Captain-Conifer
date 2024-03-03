@@ -36,3 +36,5 @@ for (var i = 0; i < op_length; i++){
 	draw_text_color(x+op_border, y+op_border+(op_space*i), option[menu_level, i],_colorhighlight,_colorhighlight,_colorhighlight,_colorhighlight,1);
 	
 }
+
+

@@ -3,6 +3,8 @@
 get_controls();
 
 
+vaccumeCheck = keyboard_check_pressed( ord("F"));
+
 //movement
 
 //X movement
@@ -104,6 +106,7 @@ y += y_spd;
 
 
 //ANIMATIONS
+
 if (!is_grounded){
 
 	sprite_index = S_PlayerFall;
@@ -113,7 +116,9 @@ if (!is_grounded){
 } else {
 
 	image_speed = 1;
-	if (x_spd == 0){
+	
+	}
+	if (x_spd == 0 && !vaccumeCheck){
 	
 		sprite_index = S_Player;
 	
@@ -123,6 +128,18 @@ if (!is_grounded){
 		
 	}
 
-}
+
 
 if (x_spd != 0) image_xscale = sign(x_spd);
+
+
+//vaccume check
+if vaccumeCheck{
+
+	vaccuming = true
+	sprite_index = S_PlayerVac;
+
+}
+if keyboard_check_released(ord("F")){
+	vaccuming = false;	
+}

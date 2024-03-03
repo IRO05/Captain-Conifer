@@ -3,3 +3,6 @@
 taskComplete = false;
 death = false;
 
+special = 0;
+
+songs[0] = snd_title;

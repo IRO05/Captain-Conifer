@@ -5,3 +5,9 @@ if (global.trashTotal <= 0){
 	taskComplete = true;
 
 }
+
+if ((place_meeting(x,y, O_Player)) && special == "exit"){
+
+	global.signID = "exit";
+
+}

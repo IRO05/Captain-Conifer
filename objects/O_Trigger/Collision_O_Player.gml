@@ -4,6 +4,7 @@ if (taskComplete || death){
 	
 	room_goto(roomID);
 	
+	
 } else {
 	
 	global.signID = "dirty";

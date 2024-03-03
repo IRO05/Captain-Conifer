@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "S_Sign",
-    "path": "sprites/S_Sign/S_Sign.yy",
+    "name": "S_EarthNPC",
+    "path": "sprites/S_EarthNPC/S_EarthNPC.yy",
   },
   "spriteMaskId": null,
   "visible": true,

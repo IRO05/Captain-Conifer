@@ -3,7 +3,7 @@
 key_check = keyboard_check_pressed( ord( "E" ));
 
 
-if (!grabbed && grabable){
+if (!grabbed){
 
 	if (key_check){
 

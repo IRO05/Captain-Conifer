@@ -19,3 +19,6 @@ option[1,2] = "Back";
 
 op_length = array_length(option);
 menu_level = 0;
+
+myroom = 0;
+
